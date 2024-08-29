@@ -1,0 +1,14 @@
+{
+    "require": {
+        "aws/aws-sdk-php": "^3.320"
+    },
+    
+    "autoload": {
+        "psr-4": {
+            "Src\\": "Src/"
+        },
+        "files": [
+            "Src/Config/fixos.php"
+        ]
+    }
+}
