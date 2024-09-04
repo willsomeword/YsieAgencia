@@ -130,3 +130,4 @@ var Global = function() {
 $(document).ready(function() {
   Global.init();
 });
+

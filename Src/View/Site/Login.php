@@ -75,24 +75,12 @@
                 <div class="container-fluid">
                     <!-- Menu List -->
                     <ul class="list-unstyled s-header__nav-menu">
-                        <li class="s-header__nav-menu-item"><a class="s-header__nav-menu-link s-header__nav-menu-link-divider" href="index.html">Corporate</a></li>
-                        <li class="s-header__nav-menu-item"><a class="s-header__nav-menu-link s-header__nav-menu-link-divider -is-active" href="index_app_landing.html">App Landing</a></li>
-                        <li class="s-header__nav-menu-item"><a class="s-header__nav-menu-link s-header__nav-menu-link-divider" href="index_portfolio.html">Portfolio</a></li>
-                        <li class="s-header__nav-menu-item"><a class="s-header__nav-menu-link s-header__nav-menu-link-divider" href="index_events.html">Events</a></li>
-                        <li class="s-header__nav-menu-item"><a class="s-header__nav-menu-link s-header__nav-menu-link-divider" href="index_lawyer.html">Lawyer</a></li>
-                        <li class="s-header__nav-menu-item"><a class="s-header__nav-menu-link s-header__nav-menu-link-divider" href="index_clinic.html">Clinic</a></li>
-                        <li class="s-header__nav-menu-item"><a class="s-header__nav-menu-link s-header__nav-menu-link-divider" href="index_coming_soon.html">Coming Soon</a></li>
-                    </ul>
-                    <!-- End Menu List -->
+                        <li class="s-header__nav-menu-item"><a class="s-header__nav-menu-link s-header__nav-menu-link-divider " href="../Site/Contato.php">Contato</a></li>
+                        <li class="s-header__nav-menu-item"><a class="s-header__nav-menu-link s-header__nav-menu-link-divider" href="../Site/Services.php">Serviços</a></li>
+                        <li class="s-header__nav-menu-item"><a class="s-header__nav-menu-link s-header__nav-menu-link-divider" href="../Site/Sobre.php">Sobre</a></li>
+                        <li class="s-header__nav-menu-item"><a class="s-header__nav-menu-link s-header__nav-menu-link-divider -is-active" href="../Site/Login.php">Login</a></li>
+                        <li class="s-header__nav-menu-item"><a class="s-header__nav-menu-link s-header__nav-menu-link-divider" href="../Site/Inicial.php">Inicial</a></li>
 
-                    <!-- Menu List -->
-                    <ul class="list-unstyled s-header__nav-menu">
-                        <li class="s-header__nav-menu-item"><a class="s-header__nav-menu-link s-header__nav-menu-link-divider" href="about.html">About</a></li>
-                        <li class="s-header__nav-menu-item"><a class="s-header__nav-menu-link s-header__nav-menu-link-divider" href="team.html">Team</a></li>
-                        <li class="s-header__nav-menu-item"><a class="s-header__nav-menu-link s-header__nav-menu-link-divider" href="services.html">Services</a></li>
-                        <li class="s-header__nav-menu-item"><a class="s-header__nav-menu-link s-header__nav-menu-link-divider" href="events.html">Events</a></li>
-                        <li class="s-header__nav-menu-item"><a class="s-header__nav-menu-link s-header__nav-menu-link-divider" href="faq.html">FAQ</a></li>
-                        <li class="s-header__nav-menu-item"><a class="s-header__nav-menu-link s-header__nav-menu-link-divider" href="contacts.html">Contacts</a></li>
                     </ul>
                     <!-- End Menu List -->
                 </div>
@@ -199,6 +187,7 @@
     <!--========== END PAGE CONTENT ==========-->
 
     <!--========== FOOTER ==========-->
+ 
     <footer class="g-bg-color--dark">
         <!-- Links -->
         <div class="g-hor-divider__dashed--white-opacity-lightest">
@@ -206,30 +195,31 @@
                 <div class="row">
                     <div class="col-sm-2 g-margin-b-20--xs g-margin-b-0--md">
                         <ul class="list-unstyled g-ul-li-tb-5--xs g-margin-b-0--xs">
-                            <li><a class="g-font-size-15--xs g-color--white-opacity" href="http://themeforest.net/item/metronic-responsive-admin-dashboard-template/4021469?ref=keenthemes">Home</a></li>
-                            <li><a class="g-font-size-15--xs g-color--white-opacity" href="http://themeforest.net/item/metronic-responsive-admin-dashboard-template/4021469?ref=keenthemes">About</a></li>
-                            <li><a class="g-font-size-15--xs g-color--white-opacity" href="http://themeforest.net/item/metronic-responsive-admin-dashboard-template/4021469?ref=keenthemes">Work</a></li>
-                            <li><a class="g-font-size-15--xs g-color--white-opacity" href="http://themeforest.net/item/metronic-responsive-admin-dashboard-template/4021469?ref=keenthemes">Contact</a></li>
+                            <li><a class="g-font-size-15--xs g-color--white-opacity" href="">Home</a></li>
+                            <li><a class="g-font-size-15--xs g-color--white-opacity" href="">Sobre</a></li>
+                            <li><a class="g-font-size-15--xs g-color--white-opacity" href="">Trabalhos</a></li>
+                            <li><a class="g-font-size-15--xs g-color--white-opacity" href="">Contatos</a></li>
                         </ul>
                     </div>
                     <div class="col-sm-2 g-margin-b-20--xs g-margin-b-0--md">
                         <ul class="list-unstyled g-ul-li-tb-5--xs g-margin-b-0--xs">
-                            <li><a class="g-font-size-15--xs g-color--white-opacity" href="http://themeforest.net/item/metronic-responsive-admin-dashboard-template/4021469?ref=keenthemes">Twitter</a></li>
-                            <li><a class="g-font-size-15--xs g-color--white-opacity" href="http://themeforest.net/item/metronic-responsive-admin-dashboard-template/4021469?ref=keenthemes">Facebook</a></li>
-                            <li><a class="g-font-size-15--xs g-color--white-opacity" href="http://themeforest.net/item/metronic-responsive-admin-dashboard-template/4021469?ref=keenthemes">Instagram</a></li>
-                            <li><a class="g-font-size-15--xs g-color--white-opacity" href="http://themeforest.net/item/metronic-responsive-admin-dashboard-template/4021469?ref=keenthemes">YouTube</a></li>
+                            <li><a class="g-font-size-15--xs g-color--white-opacity" href="">Facebook</a></li>
+                            <li><a class="g-font-size-15--xs g-color--white-opacity" href="">Instagram</a></li>
+                            <li><a class="g-font-size-15--xs g-color--white-opacity" href="">YouTube</a></li>
                         </ul>
                     </div>
+                    
+                    <!--========== FOOTER ==========-->
                     <div class="col-sm-2 g-margin-b-40--xs g-margin-b-0--md">
                         <ul class="list-unstyled g-ul-li-tb-5--xs g-margin-b-0--xs">
-                            <li><a class="g-font-size-15--xs g-color--white-opacity" href="http://themeforest.net/item/metronic-responsive-admin-dashboard-template/4021469?ref=keenthemes">Subscribe to Our Newsletter</a></li>
-                            <li><a class="g-font-size-15--xs g-color--white-opacity" href="http://themeforest.net/item/metronic-responsive-admin-dashboard-template/4021469?ref=keenthemes">Privacy Policy</a></li>
-                            <li><a class="g-font-size-15--xs g-color--white-opacity" href="http://themeforest.net/item/metronic-responsive-admin-dashboard-template/4021469?ref=keenthemes">Terms &amp; Conditions</a></li>
+                            <li><a class="g-font-size-15--xs g-color--white-opacity" href="">Subscribe </a></li>
+                  
+                            <li><a class="g-font-size-15--xs g-color--white-opacity" href="">Terms &amp; Conditions</a></li>
                         </ul>
                     </div>
                     <div class="col-md-4 col-md-offset-2 col-sm-5 col-sm-offset-1 s-footer__logo g-padding-y-50--xs g-padding-y-0--md">
-                        <h3 class="g-font-size-18--xs g-color--white">Megakit</h3>
-                        <p class="g-color--white-opacity">We are a creative studio focusing on culture, luxury, editorial &amp; art. Somewhere between sophistication and simplicity.</p>
+                        <h3 class="g-font-size-18--xs g-color--white">Ysie</h3>
+                        <p class="g-color--white-opacity">Criamos aquilo que nos motiva.</p>
                     </div>
                 </div>
             </div>
@@ -241,16 +231,14 @@
             <div class="row">
                 <div class="col-lg-4 col-md-4 col-xs-12">
                     <a href="index.html">
-                        <img class="g-width-100--xs g-height-auto--xs" src="../../Template/dist/img/logo-remove.png" alt="Megakit Logo">
+                        <img class="g-width-100--xs g-height-auto--xs" src="../../Template/dist/img/logo-remove.png" alt=" Logo">
                     </a>
-                </div>
-                <div class="col-lg-4 col-md-4 col-xs-12 g-text-left--xs">
-                    <p class="g-font-size-14--xs g-margin-b-0--xs g-color--white-opacity-light"><a href="http://keenthemes.com/preview/Megakit/">Megakit</a> Theme Powered by: <a href="http://www.keenthemes.com/">KeenThemes.com</a></p>
+               
+                    <p class="g-font-size-14--xs g-margin-b-0--xs g-color--white-opacity-light"><a href=""></a> Produzido por: <a href="">ysie.com.br</a></p>
                 </div>
 
 
-                <div class="col-lg-4 col-md-4 col-xs-12 g-text-left--xs">
-                    <p class="g-font-size-14--xs g-margin-b-0--xs g-color--white-opacity-light"><a href="http://keenthemes.com/preview/Megakit/">Megakit</a> Theme Distributed by: <a href="https://themewagon.com/">themewagon.com</a></p>
+
                 </div>
             </div>
         </div>

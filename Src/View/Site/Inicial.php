@@ -81,7 +81,7 @@
                         <li class="s-header__nav-menu-item"><a class="s-header__nav-menu-link s-header__nav-menu-link-divider" href="../Site/Sobre.php">Sobre</a></li>
                         <li class="s-header__nav-menu-item"><a class="s-header__nav-menu-link s-header__nav-menu-link-divider" href="../Site/Login.php">Login</a></li>
                         <li class="s-header__nav-menu-item"><a class="s-header__nav-menu-link s-header__nav-menu-link-divider" href="../Site/Inicial.php">Inicial</a></li>
-                  
+
                     </ul>
                     <!-- End Menu List -->
 
@@ -138,40 +138,140 @@
     <!--========== SWIPER SLIDER ==========-->
     <div class="s-swiper js__swiper-one-item">
         <!-- Swiper Wrapper -->
-        <div class="swiper-wrapper">
-            <div class="g-fullheight--xs g-bg-position--center swiper-slide" style="background: url('../../Template/dist/img/1920x1080/02.jpg');">
+        <div class="">
+            <div class="g-fullheight--xs g-bg-position--center swiper-slide" style="background: url('../../Template/dist/img/1920x1080/02.jpg'); border-image:fill 0 linear-gradient(#0003, #000)">
                 <div class="container g-text-center--xs g-ver-center--xs">
                     <div class="g-margin-b-30--xs">
-                        <h1 class="g-font-size-35--xs g-font-size-45--sm g-font-size-55--md g-color--white">Uma Experiencia<br>que te inspira a te leva a um novo nivel</h1>
+                        <h1></h1>
+
+                        <span class="g-font-size-35--xs g-font-size-45--sm g-font-size-55--md g-color--white" id="typewriter" style="color:white; height:150px" data-array=""></span>
+                        <span class="cursor"></span>
+                        <div id="container">
+
+                            <div id="flip">
+                                <div>
+                                    <div>Opportunities</div>
+                                </div>
+                                <div>
+                                    <div>Moments</div>
+                                </div>
+                                <div>
+                                    <div>Memories</div>
+                                </div>
+
+
+                            </div>
+
+                        </div>
                     </div>
+
+                    <style>
+                        #flip {
+                            height: 50px;
+                            overflow: hidden;
+                        }
+
+                        #flip>div>div {
+                            color: #fff;
+                            padding: 4px 17px;
+                            height: 45px;
+                            margin-bottom: 45px;
+                            display: inline-block;
+                            border-radius: 5px;
+                        }
+
+                        #flip div:first-child {
+                            animation: show 30s linear infinite;
+
+                        }
+
+                        #flip div div {
+                            background: #ebb134;
+
+                        }
+
+                        #flip div:first-child div {
+                            background: #67eb34;
+                        }
+
+
+
+                        #flip div:last-child div {
+                            background: aqua;
+
+                        }
+
+
+                        @keyframes show {
+
+                            0% {
+                                margin-top: -270px;
+                            }
+
+                            5% {
+                                margin-top: -165px;
+                            }
+
+                            33% {
+                                margin-top: -165px;
+                            }
+
+                            38% {
+                                margin-top: -80px;
+                            }
+
+                            66% {
+                                margin-top: -80px;
+                            }
+
+                            71% {
+                                margin-top: 0px;
+                            }
+
+                            99.99% {
+                                margin-top: 0px;
+                            }
+
+                            100% {
+                                margin-top: -270px;
+                            }
+
+                        }
+                    </style>
                     <!--
                      <a class="js__popup__youtube" href="https://www.youtube.com/watch?v=lcFYdgZKZxY" title="Intro Video">
                         <i class="s-icon s-icon--lg s-icon--white-bg g-radius--circle ti-control-play"></i>
-                    </a>--->
-
-                </div>
-            </div>
+                    </a>
+                    
             <div class="g-fullheight--xs g-bg-position--center swiper-slide" style="background: url('../../Template/dist/img/1920x1080/01.jpg');">
                 <div class="container g-text-center--xs g-ver-center--xs">
                     <div class="g-margin-b-30--xs">
                         <div class="g-margin-b-30--xs">
                             <h2 class="g-font-size-35--xs g-font-size-45--sm g-font-size-55--md g-color--white">Somos<br>Ysie<br>"building on relief "</h2>
                         </div>
-                        <!--
+                      
                          <a class="js__popup__youtube" href="https://www.youtube.com/watch?v=lcFYdgZKZxY" title="Intro Video">
                             <i class="s-icon s-icon--lg s-icon--white-bg g-radius--circle ti-control-play"></i>
                         </a>
-                        -->
+                    
 
                     </div>
                 </div>
             </div>
-        </div>
-        <!-- End Swiper Wrapper -->
+                    --->
 
-        <!-- Arrows -->
-        <a href="javascript:void(0);" class="s-swiper__arrow-v1--right s-icon s-icon--md s-icon--white-brd g-radius--circle ti-angle-right js__swiper-btn--next"></a>
+                </div>
+            </div>
+
+        </div>
+        <!-- End Swiper
+          Wrapper -->
+
+        <!-- Arrows 
+                 <a href="javascript:void(0);" class="s-swiper__arrow-v1--right s-icon s-icon--md s-icon--white-brd g-radius--circle ti-angle-right js__swiper-btn--next"></a>
         <a href="javascript:void(0);" class="s-swiper__arrow-v1--left s-icon s-icon--md s-icon--white-brd g-radius--circle ti-angle-left js__swiper-btn--prev"></a>
+         -->
+
         <!-- End Arrows -->
 
         <a href="#js__scroll-to-section" class="s-scroll-to-section-v1--bc g-margin-b-15--xs">
@@ -180,6 +280,59 @@
         </a>
     </div>
     <!--========== END SWIPER SLIDER ==========-->
+    <div class="brands-list">
+        <div class="wrapper">
+            <h1>Aproveite</h1>
+            <h1>entre</h1>
+            <h1>em</h1>
+            <h1>contato</h1>
+            <h1>e</h1>
+            <h1>faça</h1>
+            <h1>parte</h1>
+            <h1>dessa</h1>
+            <h1>comunidade</h1>
+
+
+
+
+
+
+
+        </div>
+    </div>
+
+    <style>
+        .brands-list {
+            overflow: hidden;
+        }
+
+        .h1 {
+            margin: 0;
+            padding: 0;
+            font-size: 2rem;
+            /* Adjust font size as needed */
+            flex: 0 0 12rem;
+            /* Ensure each h1 takes up 15rem */
+        }
+
+        .wrapper {
+            display: grid;
+            grid-auto-flow: column;
+            grid-auto-columns: 12rem;
+
+            justify-items: stretch;
+        }
+
+        @keyframes scroll {
+            to {
+                translate: calc(-4 * 12rem);
+            }
+        }
+
+        .wrapper {
+            animation: scroll 10s linear infinite;
+        }
+    </style>
 
     <!--========== PAGE CONTENT ==========-->
     <!-- Features -->
@@ -523,8 +676,8 @@
                                 <li><i class="g-font-size-13--xs g-color--primary g-margin-r-10--xs ti-check"></i> Consultoria Básica Mensal</li>
                             </ul>
                             <div class="g-margin-b-40--xs">
-                                <span class="s-plan-v1__price-mark">R$</span>
-                                <span class="s-plan-v1__price-tag">299</span>
+                                <span class="s-plan-v1__price-mark"></span>
+                                <span class="s-plan-v1__price-tag"></span>
                             </div>
                             <button type="button" class="text-uppercase s-btn s-btn--sm s-btn--primary-bg g-radius--50 g-padding-x-50--xs">Cadastrar</button>
                         </div>
@@ -545,8 +698,8 @@
                                 <li><i class="g-font-size-13--xs g-color--primary g-margin-r-10--xs ti-check"></i> Consultoria Mensal</li>
                             </ul>
                             <div class="g-margin-b-40--xs">
-                                <span class="s-plan-v1__price-mark">R$</span>
-                                <span class="s-plan-v1__price-tag">799</span>
+                                <span class="s-plan-v1__price-mark"></span>
+                                <span class="s-plan-v1__price-tag"></span>
                             </div>
                             <button type="button" class="text-uppercase s-btn s-btn--sm s-btn--primary-bg g-radius--50 g-padding-x-50--xs">Cadastrar</button>
                         </div>
@@ -568,8 +721,8 @@
                                 <li><i class="g-font-size-13--xs g-color--primary g-margin-r-10--xs ti-check"></i> Suporte Prioritário 24/7</li>
                             </ul>
                             <div class="g-margin-b-40--xs">
-                                <span class="s-plan-v1__price-mark">R$</span>
-                                <span class="s-plan-v1__price-tag">999</span>
+                                <span class="s-plan-v1__price-mark"></span>
+                                <span class="s-plan-v1__price-tag"></span>
                             </div>
                             <button type="button" class="text-uppercase s-btn s-btn--sm s-btn--primary-bg g-radius--50 g-padding-x-50--xs">Cadastrar</button>
                         </div>
@@ -638,9 +791,9 @@
                     <div class="col-sm-2 g-margin-b-20--xs g-margin-b-0--md">
                         <ul class="list-unstyled g-ul-li-tb-5--xs g-margin-b-0--xs">
                             <li><a class="g-font-size-15--xs g-color--white-opacity" href="">Home</a></li>
-                            <li><a class="g-font-size-15--xs g-color--white-opacity" href="">About</a></li>
-                            <li><a class="g-font-size-15--xs g-color--white-opacity" href="">Work</a></li>
-                            <li><a class="g-font-size-15--xs g-color--white-opacity" href="">Contact</a></li>
+                            <li><a class="g-font-size-15--xs g-color--white-opacity" href="">Sobre</a></li>
+                            <li><a class="g-font-size-15--xs g-color--white-opacity" href="">Trabalhos</a></li>
+                            <li><a class="g-font-size-15--xs g-color--white-opacity" href="">Contatos</a></li>
                         </ul>
                     </div>
                     <div class="col-sm-2 g-margin-b-20--xs g-margin-b-0--md">
@@ -650,10 +803,12 @@
                             <li><a class="g-font-size-15--xs g-color--white-opacity" href="">YouTube</a></li>
                         </ul>
                     </div>
+                    
+                    <!--========== FOOTER ==========-->
                     <div class="col-sm-2 g-margin-b-40--xs g-margin-b-0--md">
                         <ul class="list-unstyled g-ul-li-tb-5--xs g-margin-b-0--xs">
                             <li><a class="g-font-size-15--xs g-color--white-opacity" href="">Subscribe </a></li>
-                            <li><a class="g-font-size-15--xs g-color--white-opacity" href="">Privacy Policy</a></li>
+                  
                             <li><a class="g-font-size-15--xs g-color--white-opacity" href="">Terms &amp; Conditions</a></li>
                         </ul>
                     </div>
@@ -673,14 +828,10 @@
                     <a href="index.html">
                         <img class="g-width-100--xs g-height-auto--xs" src="../../Template/dist/img/logo-remove.png" alt=" Logo">
                     </a>
-                </div>
-
-                <div class="col-lg-4 col-md-4 col-xs-12 g-text-left--xs">
+               
                     <p class="g-font-size-14--xs g-margin-b-0--xs g-color--white-opacity-light"><a href=""></a> Produzido por: <a href="">ysie.com.br</a></p>
                 </div>
 
-
-                <div class="col-lg-4 col-md-4 col-xs-12 g-text-left--xs">
 
 
                 </div>
@@ -725,5 +876,67 @@
 
 </body>
 <!-- End Body -->
+
+<script>
+    //typewritter elemento
+
+    var typewritterElement = document.getElementById('typewriter');
+
+    var textArray = ['Criamos...', " Uma experiencia...", "Que te inspira a tentar um novo...", "Isso é Ysie..."];
+
+
+    //
+
+    function delWriter(text, i, cb) {
+        if (i >= 0) {
+            typewritterElement.innerHTML = text.substring(0, i--);
+
+            var rndBack = 10 + Math.random() * 100;
+            setTimeout(function() {
+                delWriter(text, i, cb);
+            }, rndBack);
+
+        } else if (typeof cb == 'function') {
+            setTimeout(cb, 1000);
+        }
+    };
+
+
+    function typeWriter(text, i, cb) {
+        if (i < text.length) {
+            typewritterElement.innerHTML = text.substring(0, i++);
+
+            var rndTyping = 250 - Math.random() * 100
+            setTimeout(function() {
+                typeWriter(text, i++, cb)
+            }, rndTyping);
+
+        } else if (i === text.length) {
+            setTimeout(function() {
+                delWriter(text, i, cb)
+            }, 1000);
+        }
+    };
+
+
+
+
+    function StartWriter(i) {
+        if (typeof textArray[i] == "undefined") {
+            setTimeout(function() {
+                StartWriter(0)
+            }, 1000);
+        } else if (1 < textArray[i].length) {
+            typeWriter(textArray[i], 0, function() {
+                StartWriter(i + 1);
+            });
+        }
+    };
+
+
+    setTimeout(function() {
+        StartWriter(0);
+    }, 1000);
+</script>
 
 </html>

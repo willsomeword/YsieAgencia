@@ -21,7 +21,7 @@ body {
   font-family: Lato, sans-serif;
   color: #222324;
   line-height: 1.6;
-  background-color: #fff;
+  background-color: #000000;
 }
 
 /* Typography */
@@ -1671,7 +1671,7 @@ fieldset[disabled] .s-btn {
 }
 
 .s-header__shrink .s-header__navbar {
-  background: rgba(0, 0, 0, 0.80);
+  background: rgba(0, 0, 0, 0.90);
   height: 85px;
 }
 
@@ -2460,4 +2460,7 @@ fieldset[disabled] .s-btn {
 
 .s-swiper__pagination-v1--dark .swiper-pagination-bullet-active {
   background: #13b1cd;
+
 }
+
+
